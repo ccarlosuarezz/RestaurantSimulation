@@ -1,1 +1,2 @@
-Para poder ejecutar el modelo ingrese a 
+Para poder ejecutar el modelo ingrese al siguiente enlace:
+https://ccarlosuarezz.github.io/RestaurantSimulation/
