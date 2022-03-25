@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Restaurant</title>
+</head>
+<body>
+    <h1>Simulacion restaurante de comidas rapidas</h1>
+    <div class="form_container">
+        <div class="form">
+            <input type="number" name="capacity_value" id="input_capacity" autocomplete="off" required/>
+            <label for="capacity_value" class="label_input">
+                <span class="content_input">Cpacidad de mesas</span>
+            </label>
+        </div>
+        <div class="form">
+            <input type="number" name="time_value" id="input_time" autocomplete="off" required/>
+            <label for="time_value" class="label_input">
+                <span class="content_input">Tiempo de simulacion (minutos)</span>
+            </label>
+        </div>
+        <button id="button" class="exec_button">
+            <strong>Simular</strong>
+        </button>
+    </div>
+    <div>
+        <p class="results"></p>
+    </div>
+    <script src="Product.js"></script>
+    <script src="PreparationStation.js"></script>
+    <script src="Table.js"></script>
+    <script src="Comensal.js"></script>
+    <script src="Restaurant.js"></script>
+</body>
+</html>
