@@ -8,6 +8,7 @@ class Comensal {
     }
 
     setWaitTIme(time) {
-        // randomTiem
+        // definir tiempo de espera con distribucion uniforme
+        
     }
 }
